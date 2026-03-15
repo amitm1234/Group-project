@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather24 - Live Weather App</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>🌤 Weather24</h1>
+    <p>Your real-time weather companion</p>
+  </header>
+
+  <main>
+  <div class="search-box">
+  <input type="text" id="city" placeholder="Enter city name" />
+  <button onclick="getWeather()">Check Weather</button>
+   </div>
+    
+    <div id="result"></div>
+
+    <section class="info">
+      <h2>📌 How It Works</h2>
+      <p>This web app uses the OpenWeatherMap API to fetch live weather updates. Simply enter a city name, and get real-time temperature, humidity, wind speed, and conditions in an attractive interface.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Weather24 | Created by <strong>MDA GROUP</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
