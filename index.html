@@ -4,13 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Weather24 - Live Weather App</title>
+
+  <!-- ✅ Correct CSS path -->
   <link rel="stylesheet" href="css/style.css"/>
-
-  
-
 </head>
+
 <body>
 
+  <!-- 🔥 Navbar -->
  <nav>
   <div class="nav-container">
     <div class="nav-links">
@@ -22,17 +23,19 @@
   </div>
 </nav>
 
+  <!-- Header -->
   <header>
     <h1>🌤 Weather24</h1>
     <p>Your real-time weather companion</p>
   </header>
 
+  <!-- Main -->
   <main>
     <div class="search-box">
       <input type="text" id="city" placeholder="Enter city name" />
       <button onclick="getWeather()">Check Weather</button>
     </div>
-    
+
     <div id="result"></div>
 
     <section class="info">
@@ -41,10 +44,13 @@
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
     <p>© 2026 Weather24 | Created by <strong>MDA GROUP</strong></p>
   </footer>
 
+  <!-- JS -->
   <script src="script.js"></script>
+
 </body>
 </html>

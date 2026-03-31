@@ -37,7 +37,7 @@ async function getWeather() {
     const res = await fetch(url);
 
     if (!res.ok) {
-      throw new Error("City not found ❌ (Try: Nanded, Pune, Mumbai)");
+      throw new Error("City not found ❌ (Try:  Pune, Mumbai)");
     }
 
     const data = await res.json();
@@ -57,7 +57,7 @@ async function getWeather() {
     `;
 
   } catch (err) {
-    result.innerHTML = `<p>${err.message}</p>`;
+    result.innerHTML = `<p>❌ ${err.message}</p>`;
   }
 }
 
