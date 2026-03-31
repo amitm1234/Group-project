@@ -1,0 +1,74 @@
+/* 🔥 Contact Page */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #e0f7ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.contact-container {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+/* Heading */
+.contact-container h1 {
+  color: #00e5ff;
+  margin-bottom: 15px;
+}
+
+/* Input fields */
+.contact-container input,
+.contact-container textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #111827;
+  color: white;
+}
+
+/* Button */
+.contact-container button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #00e5ff, #0077ff);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-container button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #0077ff, #00e5ff);
+}
+
+/* Back button */
+.back-btn {
+  display: inline-block;
+  margin-top: 15px;
+  color: #00e5ff;
+  text-decoration: none;
+}
